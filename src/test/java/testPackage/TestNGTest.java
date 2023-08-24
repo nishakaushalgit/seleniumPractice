@@ -4,7 +4,7 @@ public class TestNGTest {
 
 	public static void main(String[] args) {
 		
-		//Nisha visible changes from Git directly in dev branch
+		//Nisha visible changes from Git directly in dev branch hard reset example
 
 	}
 
