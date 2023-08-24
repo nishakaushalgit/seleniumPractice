@@ -1,0 +1,17 @@
+testPackage/Compare.class
+testPackage/CartPage.class
+testPackage/Locators.class
+testPackage/Example.class
+testPackage/ProductCatalogue.class
+testPackage/AbstractComponent.class
+testPackage/WindowHandling.class
+testPackage/Checkout.class
+testPackage/NewReadJson.class
+testPackage/AmazonTest.class
+testPackage/AddToCart.class
+testPackage/Frames.class
+testPackage/PageObjectModel.class
+testPackage/TestNGTest.class
+testPackage/SeleniumTest1.class
+testPackage/LandingPage.class
+testPackage/ReadJsonFile.class
