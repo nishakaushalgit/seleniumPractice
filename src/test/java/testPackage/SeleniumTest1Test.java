@@ -42,7 +42,7 @@ public class SeleniumTest1Test {
 		driver.findElement(By.tagName("p")).getText();
 //		String loginMessage = driver.findElement(By.xpath("//button[@class='logout-btn']/preceding-sibling::p")).getText();
 //		System.out.print(loginMessage);
-		Assert.assertEquals(driver.findElement(By.tagName("p")).getText(), "You are successfully logged in...");
+		Assert.assertEquals(driver.findElement(By.tagName("p")).getText(), "You are successfully logged in.");
 		// Assert.assertEquals(driver.findElement(By.tagName("p")).getText(), "You are
 		// successfully logged in.");
 		// Assert.assertEquals(driver.findElement(By.tagName("h2")).getText(),"Hello
