@@ -1,22 +1,23 @@
 package testPackage;
 
+import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class SeleniumTest1 {
-	public static void main(String[] args) throws InterruptedException {
-
+public class SeleniumTest1Test {
+	@Test
+	public void f() throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
-		String name="rahul";
+		String name = "rahul";
 		driver.findElement(By.id("inputUsername")).sendKeys(name);
 		driver.findElement(By.name("inputPassword")).sendKeys("12345");
 		driver.findElement(By.className("signInBtn")).click();
@@ -29,7 +30,7 @@ public class SeleniumTest1 {
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//button[@class='reset-pwd-btn']")).click();
 		Thread.sleep(2000);
-		String text=driver.findElement(By.xpath("//p[@class='infoMsg']")).getText();
+		String text = driver.findElement(By.xpath("//p[@class='infoMsg']")).getText();
 		System.out.println(text);
 		driver.findElement(By.xpath("//button[@class='go-to-login-btn']")).click();
 		Thread.sleep(2000);
@@ -42,9 +43,11 @@ public class SeleniumTest1 {
 //		String loginMessage = driver.findElement(By.xpath("//button[@class='logout-btn']/preceding-sibling::p")).getText();
 //		System.out.print(loginMessage);
 		Assert.assertEquals(driver.findElement(By.tagName("p")).getText(), "You are successfully logged in...");
-	//	Assert.assertEquals(driver.findElement(By.tagName("p")).getText(), "You are successfully logged in.");
-		//Assert.assertEquals(driver.findElement(By.tagName("h2")).getText(),"Hello "+name+",");
-		
+		// Assert.assertEquals(driver.findElement(By.tagName("p")).getText(), "You are
+		// successfully logged in.");
+		// Assert.assertEquals(driver.findElement(By.tagName("h2")).getText(),"Hello
+		// "+name+",");
+
 		driver.quit();
 	}
 }

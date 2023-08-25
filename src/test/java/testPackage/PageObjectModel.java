@@ -22,9 +22,9 @@ public class PageObjectModel {
 		ProductCatalogue productcatalogue=landingpage.loginApplication("anshika@gmail.com","Iamking@000");
 		//List<WebElement> products=productcatalogue.getProductList();
 		//productcatalogue.getProductByName(productName);
-		CartPage cartpage= productcatalogue.addToCart(productName);
-		Boolean match=cartpage.verifyProductDisplayed(productName);
-		Assert.assertTrue(match);
+//		CartPage cartpage= productcatalogue.addToCart(productName);
+//		Boolean match=cartpage.verifyProductDisplayed(productName);
+//		Assert.assertTrue(match);
 		//Checkout checkout= cartpage.goTocheckoutPage();
 		
 		

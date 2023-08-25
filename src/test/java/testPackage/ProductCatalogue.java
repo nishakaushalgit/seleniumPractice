@@ -32,18 +32,18 @@ public class ProductCatalogue extends AbstractComponent {
 		return products;
 		}
 		
-	public WebElement getProductByName(String productName) {
-		WebElement prod= getProductList().stream().filter(product->
-		product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null);
-		return prod;
-	}
+//	public WebElement getProductByName(String productName) {
+//		WebElement prod= getProductList().stream().filter(product->
+//		product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null);
+//		return prod;
+//	}
 	
-	public CartPage addToCart(String productName) {
-		WebElement prod=getProductByName(productName);
-		prod.findElement(addToCart).click();
-		CartPage cartpage= new CartPage(driver);
-		return cartpage;
-	}
+//	public CartPage addToCart(String productName) {
+//		WebElement prod=getProductByName(productName);
+//		prod.findElement(addToCart).click();
+//		CartPage cartpage= new CartPage(driver);
+//		return cartpage;
+//	}
 				
 		
 	}
