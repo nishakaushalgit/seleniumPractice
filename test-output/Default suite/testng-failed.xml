@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPackage.AmazonTest">
+      <class name="testPackage.ReadJsonFileTest">
         <methods>
-          <include name="f"/>
+          <include name="commonJsonRead"/>
+          <include name="jsonReading"/>
         </methods>
-      </class> <!-- testPackage.AmazonTest -->
+      </class> <!-- testPackage.ReadJsonFileTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
