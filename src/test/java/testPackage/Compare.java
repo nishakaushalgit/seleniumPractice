@@ -1,5 +1,9 @@
 package testPackage;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,7 +28,7 @@ public class Compare {
 	secondList.add("Pears");  
 	secondList.add("Mango");  
 	
-	Assert.assertTrue(firstList.size() == secondList.size() && firstList.containsAll(secondList) && secondList.containsAll(firstList));
+	AssertJUnit.assertTrue(firstList.size() == secondList.size() && firstList.containsAll(secondList) && secondList.containsAll(firstList));
 	}
 	
 }

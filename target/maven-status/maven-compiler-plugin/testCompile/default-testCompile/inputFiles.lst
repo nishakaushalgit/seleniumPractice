@@ -1,14 +1,14 @@
 /Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/LandingPage.java
 /Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/AbstractComponent.java
-/Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/Frames.java
 /Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/CartPage.java
-/Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/AddToCart.java
 /Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/NewReadJson.java
 /Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/TestNGTest.java
+/Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/FramesTest.java
 /Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/ReadJsonFile.java
+/Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/AddToCartTest.java
 /Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/Compare.java
-/Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/SeleniumTest1.java
 /Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/WindowHandling.java
+/Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/SeleniumTest1Test.java
 /Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/Locators.java
 /Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/AmazonTest.java
 /Users/kshitijchaudhary/eclipse-workspace/seleniumPractice/src/test/java/testPackage/ProductCatalogue.java

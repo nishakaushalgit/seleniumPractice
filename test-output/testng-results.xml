@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-31T12:03:05 IST" name="Default suite" finished-at="2023-07-31T12:03:15 IST" duration-ms="10511">
+  <suite started-at="2023-08-26T23:37:14 IST" name="Default suite" finished-at="2023-08-26T23:37:15 IST" duration-ms="80">
     <groups>
     </groups>
-    <test started-at="2023-07-31T12:03:05 IST" name="Default test" finished-at="2023-07-31T12:03:15 IST" duration-ms="10511">
-      <class name="testPackage.AmazonTest">
-        <test-method signature="f()[pri:0, instance:testPackage.AmazonTest@31c88ec8]" started-at="2023-07-31T12:03:05 IST" name="f" finished-at="2023-07-31T12:03:15 IST" duration-ms="10457" status="PASS">
+    <test started-at="2023-08-26T23:37:14 IST" name="Default test" finished-at="2023-08-26T23:37:15 IST" duration-ms="80">
+      <class name="testPackage.ReadJsonFileTest">
+        <test-method is-config="true" signature="commonJsonRead()[pri:0, instance:testPackage.ReadJsonFileTest@6e20b53a]" started-at="2023-08-26T23:37:14 IST" name="commonJsonRead" finished-at="2023-08-26T23:37:14 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- testPackage.AmazonTest -->
+        </test-method> <!-- commonJsonRead -->
+        <test-method signature="jsonReading()[pri:0, instance:testPackage.ReadJsonFileTest@6e20b53a]" started-at="2023-08-26T23:37:15 IST" name="jsonReading" finished-at="2023-08-26T23:37:15 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonReading -->
+      </class> <!-- testPackage.ReadJsonFileTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

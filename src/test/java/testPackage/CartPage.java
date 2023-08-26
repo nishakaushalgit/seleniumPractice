@@ -28,8 +28,8 @@ public class CartPage extends AbstractComponent {
 		
 	}
 
-	public Boolean verifyProductDisplayed(String productName) {
-		Boolean match=productTitles.stream().anyMatch(product->product.getText().equalsIgnoreCase(productName));
-		return match;
-	}
+//	public Boolean verifyProductDisplayed(String productName) {
+//		Boolean match=productTitles.stream().anyMatch(product->product.getText().equalsIgnoreCase(productName));
+//		return match;
+//	}
 }

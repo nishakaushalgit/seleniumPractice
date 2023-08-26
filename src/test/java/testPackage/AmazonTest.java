@@ -1,5 +1,6 @@
 package testPackage;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -25,7 +26,7 @@ public class AmazonTest {
 //		driver.switchTo().window(windows.get(1));
 //		driver.findElement(By.id("add-to-cart-button")).click();
 //		Thread.sleep(3000);
-//		Assert.assertEquals(driver.getTitle(), "Amazon.in Shopping Cart");
+		Assert.assertEquals(driver.getTitle(), "Amazon.in Shopping Cart");
 		driver.quit();
 		
   }
